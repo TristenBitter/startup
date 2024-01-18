@@ -25,4 +25,4 @@
 
 ### Images
     
-   ![This is a picture of the Bank dice game app layout](BankDiceApplepic.png)
+   ![This is a picture of the Bank dice game app layout](IMG_4742.jpg)
