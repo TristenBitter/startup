@@ -1,4 +1,4 @@
-Sweet! I know learning to use git hub will be super helpful in my future career. I learned that I need to pull new content and remember to commit and push my changes back up. 
+I learned that I need to pull new content and remember to commit and push my changes back up. 
 
 Monday, Feb 5th, 2024         "HTML"
 I was able to implement the header of each of the files and link them together.
