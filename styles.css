@@ -75,5 +75,6 @@ h1 {
       display: flex;
       justify-content: center;
       flex-direction: row;
+      color: white;
     }
   }
