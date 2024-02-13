@@ -46,6 +46,7 @@
   }
   header p {
     padding-inline-start: 2em;
+    padding-right: 2em;
   }
   
   section:nth-child(1) {
