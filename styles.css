@@ -53,7 +53,7 @@ h1 {
   }
   section:nth-child(2) {
     flex: 3;
-    background-color: white;
+    background-color: aqua;
   }
   
   @media (orientation: portrait) {
