@@ -45,7 +45,7 @@
     background-color: rgb(77, 229, 77);
   }
   section p {
-    padding-inline-start: 0em;
+    padding-inline-start: 2em;
   }
   
   section:nth-child(1) {
