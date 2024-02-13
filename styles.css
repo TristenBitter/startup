@@ -47,6 +47,7 @@
   header p {
     padding-inline-start: 2em;
     padding-right: 2em;
+    color:aliceblue;
   }
   
   section:nth-child(1) {
