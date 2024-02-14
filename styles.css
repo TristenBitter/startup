@@ -49,6 +49,9 @@
     padding-right: 2em;
     color:aliceblue;
   }
+  header nav {
+    color:azure;
+  }
   
   section:nth-child(1) {
     flex: 1;
