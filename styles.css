@@ -41,6 +41,7 @@
     flex-direction: row;
   }
   .NavBar div a{
+    padding-left: 2em;
     color:white;
   }
   .NavBar{
