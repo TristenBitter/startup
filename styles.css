@@ -42,22 +42,12 @@
   }
   .NavBar div a{
     color:white;
-    
-
   }
-  header ul {
-    padding: 0 0.5em;
-    background-color: rgb(77, 229, 77);
-    
+  .NavBar{
+    display: flex;
+    flex-direction: column;
   }
-  header p {
-    padding-inline-start: 2em;
-    padding-right: 2em;
-    color:aliceblue;
-  }
-  header nav {
-    color:azure;
-  }
+  
   
   section:nth-child(1) {
     flex: 1;
