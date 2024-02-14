@@ -40,7 +40,7 @@
     display: flex;
     flex-direction: row;
   }
-  .NavBar{
+  .NavBar div a{
     color:white;
   }
   header ul {
