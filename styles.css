@@ -4,7 +4,7 @@
   color:black;
   box-sizing: border-box;
 } */
-body {
+/* body {
   display: flex;
   flex-direction: column;
   min-width: 375px;
@@ -34,7 +34,7 @@ menu {
   flex: 1;
   display: flex;
   /*  overwrite Bootstrap so the menu does not wrap */
-  flex-direction: row !important;
+  /* flex-direction: row !important;
   list-style: none;
 }
 
@@ -67,10 +67,10 @@ menu {
   main {
     flex: 1 100vh;
   }
-}
+} */
   
   
-  /* * {
+  * {
     text-align: center;
     font-family: sans-serif;
     color:black;
@@ -152,4 +152,4 @@ menu {
       flex-direction: row;
       
     }
-  } */
+  }
