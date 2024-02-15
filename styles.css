@@ -34,7 +34,7 @@ menu {
   flex: 1;
   display: flex;
   /*  overwrite Bootstrap so the menu does not wrap */
-  /* flex-direction: row !important;
+/* flex-direction: row !important;
   list-style: none;
 }
 
@@ -68,108 +68,106 @@ menu {
     flex: 1 100vh;
   }
 } */
-  
-  
-  * {
-    text-align: center;
-    font-family: sans-serif;
-    color:black;
-    box-sizing: border-box;
-    
-  }
-  
-  html {
-    height: 100%;
-  }
-  
-  body {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    font-family: sans-serif;
-  }
-  
-  header {
-    flex: 0 80px;
-    background: hsl(227, 68%, 52%);
-  
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    font-size: large;
-  }
 
+* {
+  text-align: center;
+  font-family: sans-serif;
+  color: black;
+  box-sizing: border-box;
+}
 
-  
-  footer {
-    flex: 0 15px;
-    color: white;
-    background: hsl(227, 68%, 52%);
-    
-  }
-  .Fancy_Title title{
-    flex: 1;
-    flex-direction: row;
-    font-size: xx-large;
-    color: #0a17a5;
-    text-shadow: 2px 2px 4px #999;
-  }
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+header {
+  flex: 0 80px;
+  background: hsl(227, 68%, 52%);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: large;
+}
+
+footer {
+  flex: 0 15px;
+  color: white;
+  background: hsl(227, 68%, 52%);
+}
+.Fancy_Title title {
+  flex: 1;
+  flex-direction: row;
+  font-size: xx-large;
+  color: #0a17a5;
+  text-shadow: 2px 2px 4px #999;
+}
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  font-size: large;
+}
+.NavBar div a {
+  padding-left: 2em;
+  color: white;
+}
+.NavBar {
+  display: flex;
+  flex-direction: column;
+}
+
+section:nth-child(1) {
+  flex: 1;
+  background-color: hsl(180, 10%, 80%);
+}
+section:nth-child(2) {
+  flex: 3;
+  background-color: aqua;
+}
+
+section:nth-child(3) {
+  flex: 6;
+  background-color: rgb(15, 238, 212);
+}
+section:nth-child(4) {
+  flex: 6;
+  background-color: rgb(15, 238, 212);
+}
+.git-link {
+  color: white;
+}
+
+.Fancy_Title {
+  text-shadow: 2px 2px 4px #999;
+}
+@media (orientation: portrait) {
   main {
-    flex: 1;
-    display: flex;
-    flex-direction: row;
-    font-size: large;
-  }
-  .NavBar div a{
-    padding-left: 2em;
-    color:white;
-  }
-  .NavBar{
-    display: flex;
     flex-direction: column;
   }
-  
-  
-  section:nth-child(1) {
-    flex: 1;
-    background-color: hsl(180, 10%, 80%);
+}
+
+@media (max-height: 700px) {
+  header {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: flex-start;
+
+    align-items: flex-start;
   }
-  section:nth-child(2) {
-    flex: 3;
-    background-color: aqua;
+  footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
   }
-  
-  section:nth-child(3) {
-    flex: 6;
-    background-color: rgb(15, 238, 212);
-  }
-  section:nth-child(4) {
-    flex: 6;
-    background-color: rgb(15, 238, 212);
-  }
-  
-  @media (orientation: portrait) {
-    main {
-      flex-direction: column;
-    }
-  }
-  
-  @media (max-height: 700px) {
-    header {
-      display: flex;
-      flex-direction: row;
-  
-      justify-content: flex-start;
-  
-      align-items: flex-start;
-    }
-    footer {
-      display: flex;
-      justify-content: center;
-      flex-direction: row;
-      
-      
-    }
-  }
+}
