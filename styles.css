@@ -140,6 +140,10 @@ menu {
     flex: 3;
     background-color: aqua;
   }
+  section:nth-child(3) {
+    flex: 6;
+    background-color: rgb(15, 238, 212);
+  }
   
   @media (orientation: portrait) {
     main {
