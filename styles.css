@@ -43,7 +43,7 @@ menu {
   border-bottom: solid rgb(182, 182, 182) thin;
 }
 
-.NavBar div a{
+/* .NavBar div a{
   padding-left: 2em;
   color:white;
   display: flex;
@@ -54,7 +54,7 @@ menu {
 .NavBar{
   display: flex;
   flex-direction: column;
-}
+} */
 
 
 @media (max-height: 600px) {
