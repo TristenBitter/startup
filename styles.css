@@ -107,7 +107,7 @@ menu {
   .Fancy_Title{
     flex: 1;
     flex-direction: row;
-    font-size: large;
+    font-size: xx-large;
     color: #0a17a5;
     text-shadow: 2px 2px 4px #999;
   }
