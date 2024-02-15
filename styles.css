@@ -46,6 +46,10 @@ menu {
 .NavBar div a{
   padding-left: 2em;
   color:white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 }
 .NavBar{
   display: flex;
