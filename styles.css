@@ -150,6 +150,9 @@ menu {
     background-color: rgb(15, 238, 212);
   }
   
+  .Git_Link div a{
+    color: white;
+  }
   @media (orientation: portrait) {
     main {
       flex-direction: column;
