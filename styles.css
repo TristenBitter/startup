@@ -75,7 +75,7 @@ menu {
     font-family: sans-serif;
     color:black;
     box-sizing: border-box;
-    font-size: small;
+    
   }
   
   html {
@@ -99,6 +99,10 @@ menu {
     justify-content: flex-start;
     align-items: center;
     font-size: small;
+  }
+
+  footer l{
+    font-size: medium;
   }
   
   footer {
