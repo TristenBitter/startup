@@ -40,15 +40,7 @@
         To implement web Sockets I will be updating the score in real time. 
         Data will be stored in the score page as well
         I will use a web service to implement the roll dice part of play
-
-
-
-
-        /**************************************************************************/
-        /                             CSS Notes
-        /**************************************************************************/
-
-
+### CSS Startup Notes
         Thursday Feb 15th, 2024   "CSS" 
                 I was able to incorporate some classes into my html and apply them in css. Through that process, I learned that it is important to use the correct declarations of classes within a <div> or an <a> or some other thing. I was able to use FLEX to each part of the page to get it to re-align depending on the size. I learned to align my Title in the center and how to get my page to have a named title when you hover over the web Page. I learned to change the color of text and the backgroud to what ever I found appealing. It was difficult at first but I was able to align the navigation to the left size and space it from the name of the page. 
         
