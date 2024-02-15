@@ -132,15 +132,6 @@ menu {
   }
   
   
-  section:nth-child(1) {
-    flex: 1;
-    background-color: hsl(180, 10%, 80%);
-  }
-  section:nth-child(2) {
-    flex: 3;
-    background-color: aqua;
-  }
-  
   @media (orientation: portrait) {
     main {
       flex-direction: column;
@@ -160,7 +151,7 @@ menu {
       display: flex;
       justify-content: center;
       flex-direction: row;
-      color: white;
+      
       
     }
   }
