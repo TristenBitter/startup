@@ -91,7 +91,7 @@ menu {
   }
   
   header {
-    flex: 0 80px;
+    /* flex: 0 80px; */
     background: hsl(227, 68%, 52%);
   
     display: flex;
