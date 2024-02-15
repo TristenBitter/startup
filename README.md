@@ -42,7 +42,7 @@
         I will use a web service to implement the roll dice part of play
 ### CSS Startup Notes
 Thursday Feb 15th, 2024   "CSS" 
-+ I was able to incorporate some classes into my html and apply them in css. Through that process, I learned that it is important to use the correct declarations of classes within a <div> or an <a> or some other thing. 
++ I was able to incorporate some classes into my html and apply them in css. Through that process, I learned that it is important to use the correct declarations of classes within a <div> or an <a> or some other element. 
 + I was able to use FLEX to each part of the page to get it to re-align depending on the size of the screen. 
 + I learned to align my Title in the center.
 + Also I learned how to get my page to have a named title when you hover over the web Page. 
