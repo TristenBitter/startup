@@ -49,8 +49,11 @@ menu {
   flex-direction: column;
 }
 
-footer a {
-  float: right;
+footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  
 }
 
 @media (max-height: 600px) {
