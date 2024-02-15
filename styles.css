@@ -91,7 +91,7 @@ menu {
   }
   
   header {
-    /* flex: 0 80px; */
+    flex: 0 80px;
     background: hsl(227, 68%, 52%);
   
     display: flex;
@@ -107,6 +107,7 @@ menu {
     flex: 0 15px;
     color: white;
     background: hsl(227, 68%, 52%);
+    
   }
   .Fancy_Title title{
     flex: 1;
@@ -159,6 +160,7 @@ menu {
       display: flex;
       justify-content: center;
       flex-direction: row;
+      color: white;
       
     }
   }
