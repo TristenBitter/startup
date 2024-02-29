@@ -1,18 +1,18 @@
-/* * {
+* {
   text-align: center;
   font-family: sans-serif;
-  color:black;
-  box-sizing: border-box;
-} */
-/* body {
+  color: black;
+  background-color: rgb(185, 247, 247);
+}
+body {
   display: flex;
   flex-direction: column;
-  min-width: 375px;
+  min-width: 300px;
+  background-color: rgb(185, 247, 247);
 }
 
 header {
   flex: 0 80px;
-  background: hsl(227, 68%, 52%);
 }
 
 main {
@@ -25,16 +25,13 @@ main {
 
 footer {
   flex: 0 30px;
-  display: flex;
-  justify-content: left;
-  flex-direction: row;
 }
 
 menu {
   flex: 1;
   display: flex;
   /*  overwrite Bootstrap so the menu does not wrap */
-/* flex-direction: row !important;
+  flex-direction: row !important;
   list-style: none;
 }
 
@@ -43,21 +40,33 @@ menu {
   border-bottom: solid rgb(182, 182, 182) thin;
 }
 
-.NavBar div a{
-  padding-left: 2em;
-  color:white;
+header .NavBar {
+  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: left;
-  justify-content: space-around;
-}
-.NavBar{
-  display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  /* padding: 0.3em; */
 }
 
+footer {
+  float: center;
+  padding-bottom: 2.5em;
+  padding-left: 2.3em;
+}
 
-@media (max-height: 600px) {
+body .Fancy_Title {
+  flex: 1;
+  flex-direction: row;
+  font-size: xx-large;
+  align-items: center;
+  padding-top: 0.5em;
+  margin-right: 3em;
+  color: #0a17a5;
+  text-shadow: 2px 2px 4px #999;
+}
+
+@media (max-height: 500px) {
   header {
     display: none;
   }
@@ -67,9 +76,9 @@ menu {
   main {
     flex: 1 100vh;
   }
-} */
+}
 
-* {
+/* * {
   text-align: center;
   font-family: sans-serif;
   color: black;
@@ -170,4 +179,4 @@ section:nth-child(4) {
     justify-content: center;
     flex-direction: row;
   }
-}
+} */
