@@ -42,10 +42,10 @@ menu {
 header .NavBar {
   flex: 1;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: left;
-  justify-content: space-between;
-  /* padding: 0.3em; */
+  justify-content: space-evenly;
+  padding: 0.3em;
 }
 
 footer {
@@ -59,9 +59,7 @@ body .Fancy_Title {
   flex-direction: row;
   font-size: xx-large;
   align-items: center;
-  padding-top: 0.5em;
-  margin-right: 3em;
-  color: #0a17a5;
+  padding-top: 0.25em;
   text-shadow: 2px 2px 4px #999;
 }
 
