@@ -84,9 +84,14 @@ function RollDice() {
   nameEl_1.textContent = score;
 }
 
-function Bank() {
-  const nameEl_1 = document.querySelector("#");
-  localStorage.setItem(nameEl_1.textContent);
+function Bank(id) {
+  let table_score = parseInt(localStorage.getItem("table_score"));
+  let bank_score = parseInt(localStorage.getItem(id) ?? 0);
+  console.log(bank_score, table_score);
+  bank_score += table_score;
+
+  localStorage.setItem(id, bank_score);
+  document.getElementById(id).textContent = bank_score;
 }
 
 function GameOver() {
