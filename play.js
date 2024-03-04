@@ -57,7 +57,7 @@ function RollDice() {
   let dice2 = Math.floor(Math.random() * 6) + 1;
   let total = dice1 + dice2;
 
-  console.log(dice1, dice2, total, Table_Score);
+  //console.log(dice1, dice2, total, Table_Score);
 
   const nameEl_1 = document.getElementById("table_score");
   let score = parseInt(localStorage.getItem("table_score"));
@@ -95,7 +95,7 @@ function GameOver() {
   // delete local storage
   //call PlayGame() to reset the table
   PlayGame();
-  localStorage.removeItem(roun);
+  localStorage.removeItem(round);
 }
 
 document.addEventListener("DOMContentLoaded", (event) => {
