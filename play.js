@@ -99,8 +99,11 @@ function GameOver() {
   //print Good Game
   // delete local storage
   //call PlayGame() to reset the table
-  PlayGame();
-  localStorage.removeItem(round);
+  localStorage.removeItem("round_num");
+  localStorage.removeItem("table_score");
+  //PlayGame();
+  // save scores on score Board
+  window.location.href = "scores.html";
 }
 
 document.addEventListener("DOMContentLoaded", (event) => {
