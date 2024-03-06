@@ -63,6 +63,25 @@ body .Fancy_Title {
   text-shadow: 2px 2px 4px #999;
 }
 
+main .score_board {
+  flex: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  width: 100%;
+}
+
+.score_board,
+.score_board th,
+.score_board td {
+  border: 1px solid black;
+}
+
+main .game_table {
+  justify-content: space-between;
+}
+
 @media (max-height: 500px) {
   header {
     display: none;

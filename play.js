@@ -8,6 +8,12 @@ function addPlayerNamesToScreen() {
 
 function getPlayerName(i) {
   const id = "user_" + i;
+
+  let object = { name: localStorage.getItem(id), score: 0, banked_yet: 0 };
+  let array = JSON.parse(localStorage.getItem("array"));
+  //// array[3].score = localStorage.getItem(score)
+  array.push(object);
+  localStorage.setItem("array", JSON.stringify(array));
   return localStorage.getItem(id) ?? "Mystery player " + i;
 }
 
@@ -101,9 +107,15 @@ function GameOver() {
   //call PlayGame() to reset the table
   localStorage.removeItem("round_num");
   localStorage.removeItem("table_score");
+
   //PlayGame();
   // save scores on score Board
   window.location.href = "scores.html";
+}
+
+function WebSocket() {
+  //Here I will impliment my web sockeet
+  // I will have real time score up dating and printing to the score page every 5 seconds.
 }
 
 document.addEventListener("DOMContentLoaded", (event) => {
