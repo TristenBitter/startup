@@ -38,15 +38,22 @@
         I had a hard time finding an image that would actually work. When I used a stock photo it seemed to work. 
         While doing this project I have learned a lot more about the basic structure of how HTML works. I'm excited to learn how to implement CSS and JavaScript.
         To implement web Sockets I will be updating the score in real time. 
-        Data will be stored in the score page as well
+        Data will be stored on the score page as well
         I will use a web service to implement the roll dice part of play
 ### CSS Startup Notes
-Thursday Feb 15th, 2024   "CSS" 
-+ I was able to incorporate some classes into my html and apply them in css. Through that process, I learned that it is important to use the correct declarations of classes within a <div> or an <a> or some other element. 
-+ I was able to use FLEX to each part of the page to get it to re-align depending on the size of the screen. 
+Thursday, Feb 15th, 2024   "CSS" 
++ I was able to incorporate some classes into my HTML and apply them in CSS. Through that process, I learned that it is important to use the correct declarations of classes within a <div> or an <a> or some other element. 
++ I was able to use FLEX on each part of the page to get it to re-align depending on the size of the screen. 
 + I learned to align my Title in the center.
 + Also I learned how to get my page to have a named title when you hover over the web Page. 
-+ I learned to change the color of text and the backgroud to what ever I found appealing. 
-+ It was difficult at first but I was able to align the navigation to the left size and space it from the name of the page Like "Let's Play". 
++ I learned to change the color of text and the background to whatever I found appealing. 
++ It was difficult at first but I was able to align the navigation to the left size and space it from the name of the page Like "Let's Play".
+
+
+### JAVASCRIPT Notes
+Wednesday, March 6th, 2024   "JavaScript"
++ The Support for Future Login was implemented on the home page of my startup. The Player 1 text box entry is the UserName placeholder, and the Password button below with allow for authentication upon pressing "play"
++ The Database data support code has been implemented in my loadScores() function in "scores.js" It is fully playable and will store the high scores of the winner of each round.
++ The WebSocket support was implemented in "scores.js" as well and already shows 
         
         
