@@ -55,6 +55,6 @@ Wednesday, March 6th, 2024   "JavaScript"
 + The Support for Future Login was implemented on the home page of my startup. The Player 1 text box entry is the UserName placeholder, and the Password button below with allow for authentication upon pressing "play".
 + The Database data support code has been implemented in my loadScores() function in "scores.js" It is fully playable and will store the high scores of the winner of each round.
 + The WebSocket support was implemented in "scores.js" as well and now shows "other player's scores" just like Simon does. Further implementation will be done later.
-+ I used JavaScript to thoroughly support my application's logic and gameplay throughout my "play.js" file, I even simulated a dice roll using math.random() which is called when they press the Roll Dice Button. The game saves the table score to a player's individual score when they press the "bank" button. The game is playable and actually really fun! I had a lot of fun coding it even though it took me much longer than anticipated.
++ I used JavaScript to thoroughly support my application's logic and gameplay throughout my "play.js" file, I even simulated a dice roll using math.random() which is called when they press the Roll Dice Button. The game saves the table score to a player's individual score when they press the "bank" button. The game is playable and actually really fun! I had a lot of fun coding it even though it took me much longer than anticipated...
         
         
