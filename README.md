@@ -31,7 +31,7 @@
 
 
 
-   Notes:
+  ### HTML Startup Notes
         Monday, Feb 5th, 2024 "HTML" I was able to implement the header of each of the files and link them together. 
         I created boxes, tables, and buttons that I will later implement in the continuing stages of development. 
         I set up the skeleton for the gameplay The previous assignments we did were super helpful. I found myself using those as a reference to help make the skeleton of this program. 
@@ -50,7 +50,7 @@ Thursday, Feb 15th, 2024   "CSS"
 + It was difficult at first but I was able to align the navigation to the left size and space it from the name of the page Like "Let's Play".
 
 
-### JAVASCRIPT Notes
+### JAVASCRIPT Startup  Notes
 Wednesday, March 6th, 2024   "JavaScript"
 + The Support for Future Login was implemented on the home page of my startup. The Player 1 text box entry is the UserName placeholder, and the Password button below with allow for authentication upon pressing "play".
 + The Database data support code has been implemented in my loadScores() function in "scores.js" It is fully playable and will store the high scores of the winner of each round.
