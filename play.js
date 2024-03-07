@@ -197,11 +197,11 @@ function setHighScores() {
   if (scoresText) {
     scores = JSON.parse(scoresText);
   }
-
+  const d = new Date();
   let WINNER = {
     name: localStorage.getItem(name_id),
     score: highscore,
-    date: new Date(),
+    date: d.toUTCString(),
   };
 
   scores.push(WINNER);
