@@ -29,8 +29,8 @@
 
   <main>
     <section>
-      <h2>Score Board</h2>
-
+      <h2>High Scores</h2>
+      <p>Data Base data will be implemented here in the future</p>
       <!-- <Score_Implimentation></Score_Implimentation>
 
       <data> Good Game!</data>
@@ -38,12 +38,16 @@
       <WebSockets>Here are the Final Scores.</WebSockets> -->
 
       <table class="score_board">
-        <tr>
-          <th>#</th>
-          <th>Name</th>
-          <th>Score</th>
-        </tr>
-        <tr>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>Score</th>
+            <th>Date</th>
+          </tr>
+        </thead>
+        <tbody id="high_scores"></tbody>
+        <!-- <tr>
           <td>1</td>
           <td>Name</td>
           <td>Score</td>
@@ -62,15 +66,18 @@
           <td>4</td>
           <td>Name</td>
           <td>Score</td>
-        </tr>
+        </tr> -->
       </table>
     </section>
     <section>
       <div>
+        <hr />
         <p>
           below here I will have my web Socket show real time scores and update
           every 5 seconds
         </p>
+        <hr />
+        <div id="player-messages"></div>
       </div>
     </section>
   </main>
