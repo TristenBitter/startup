@@ -12,13 +12,6 @@ async function loadScores() {
 }
 
 async function showScores() {
-  //lets load the score board
-
-  // let scores = [];
-  // const scoresText = localStorage.getItem("scores");
-  // if (scoresText) {
-  //   scores = JSON.parse(scoresText);
-  // }
   let scores = await loadScores();
 
   const tableBodyEl = document.querySelector("#high_scores");
