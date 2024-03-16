@@ -87,12 +87,6 @@ function RollDice() {
     score = 0;
     setRoundNum();
   } else {
-    // const nameEl_1 = document.getElementById("table_score");
-    // //console.log(nameEl_1);
-    // // let score = parseInt(localStorage.getItem("table_score")) + total;
-    // localStorage.setItem("table_score", score);
-    // nameEl_1.textContent = score;
-    // //Table_Score += total;
     score += total;
   }
   localStorage.setItem("table_score", score); //Lets update the local storage
