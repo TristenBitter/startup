@@ -229,19 +229,6 @@ async function postWinner(WINNER) {
   }
 }
 
-// async function loadScores() {
-//   let scores = [];
-//   try {
-//     // Get the latest high scores from the service
-//     const response = await fetch("/api/scores");
-//     scores = await response.json();
-//   } catch {
-//     console.error("failed to load scores");
-//   }
-
-//   return scores;
-// }
-
 function WebSocket() {
   //Here I will impliment my web sockeet
   // I will have real time score up dating and printing to the score page every 5 seconds.
