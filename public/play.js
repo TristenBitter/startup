@@ -10,12 +10,6 @@ function addPlayerNamesToScreen() {
 function getPlayerName(i) {
   const id = "user_" + i;
 
-  //let object = { name: localStorage.getItem(id), score: 0, banked_yet: 0 };
-  //localStorage.setItem()
-  //let array = JSON.parse(localStorage.getItem("array"));
-  //// array[3].score = localStorage.getItem(score)
-  //array.push(object);
-  //localStorage.setItem("array", JSON.stringify(array));
   return localStorage.getItem(id) ?? "Mystery player " + i;
 }
 
