@@ -57,4 +57,9 @@ Wednesday, March 6th, 2024   "JavaScript"
 + The WebSocket support was implemented in "scores.js" as well and now shows "other player's scores" just like Simon does. Further implementation will be done later.
 + I used JavaScript to thoroughly support my application's logic and gameplay throughout my "play.js" file, I even simulated a dice roll using math.random() which is called when they press the Roll Dice Button. The game saves the table score to a player's individual score when they press the "bank" button. The game is playable and actually really fun! I had a lot of fun coding it even though it took me much longer than anticipated...
         
-        
+### SERVICE Stratup Notes
++ 40% - I Created an HTTP service using Node.js and Express in my index.js 
++ 10% - I have Frontend served up using Express static middleware in my index.js
++ 10% - My frontend calls a third-party service endpoint on the about.js and prints out a Chuck Noris Joke, they're actually pretty funny. check it out.
++ 20% - My backend provides service endpoints in my index.js
++ 20% - My frontend calls my service endpoints in my play.js and scores.js
