@@ -1,5 +1,6 @@
 const express = require("express");
 const app = express();
+const DB = require('./database.js');
 
 const scores = [];
 
@@ -18,7 +19,8 @@ app.use(`/api`, apiRouter);
 
 // GetScores
 apiRouter.get("/scores", (_req, res) => {
-  res.send(scores);
+    const scores = await DB.getHighScores();
+    res.send(scores);
 });
 
 // SubmitScore
@@ -46,27 +48,4 @@ async function loadScores() {
 
   //Modify the DOM to display the scores
 }
-// Modify the DOM to display the scores
-// updateScores considers a new score for inclusion in the high scores.
-// The high scores are saved in memory and disappear whenever the service is restarted.
-// let scores = [];
-// function updateScores(newScore, scores) {
-//   let found = false;
-//   for (const [i, prevScore] of scores.entries()) {
-//     if (newScore.score > prevScore.score) {
-//       scores.splice(i, 0, newScore);
-//       found = true;
-//       break;
-//     }
-//   }
 
-//   if (!found) {
-//     scores.push(newScore);
-//   }
-
-//   if (scores.length > 10) {
-//     scores.length = 10;
-//   }
-
-//   return scores;
-// }
