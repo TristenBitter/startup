@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const DB = require('./database.js');
+const DB = require("./database.js");
 
 const scores = [];
 
@@ -18,14 +18,21 @@ var apiRouter = express.Router();
 app.use(`/api`, apiRouter);
 
 // GetScores
-apiRouter.get("/scores", (_req, res) => {
-    const scores = await DB.getHighScores();
-    res.send(scores);
+apiRouter.get("/scores", async (_req, res) => {
+  const scores = await DB.getHighScores();
+  res.send(scores);
 });
 
 // SubmitScore
-apiRouter.post("/score", (req, res) => {
+apiRouter.post("/score", async (req, res) => {
   const winner = req.body;
+
+  //new code with database
+  DB.addScore(winner);
+  const scores = await DB.getHighScores();
+  res.send(scores);
+
+  //old code
   scores.push(winner);
   console.log(scores);
   res.status(200);
@@ -48,4 +55,3 @@ async function loadScores() {
 
   //Modify the DOM to display the scores
 }
-
